@@ -1,0 +1,35 @@
+{
+  "name": "creds-protocol",
+  "version": "1.0.0",
+  "description": "Creds Protocol is an identity layer of web3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"\""
+  },
+  "author": "Rishikesh Kale",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@semaphore-protocol/group": "2.5.0",
+    "@semaphore-protocol/identity": "2.5.0",
+    "@semaphore-protocol/proof": "2.5.0",
+    "chai": "^4.2.0",
+    "circomlibjs": "^0.0.8",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.8.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat-deploy": "^0.11.22",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "request": "^2.88.2",
+    "util": "^0.12.5",
+    "web3-utils": "^1.8.1"
+  }
+}
